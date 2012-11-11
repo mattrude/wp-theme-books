@@ -1,0 +1,20 @@
+/*
+ * Theme Name: Books
+ * Version: 1.0
+ * Description: Books is a child theme for the Twenty Twelve theme.
+ * Author: Matt Rude
+ * Author URI: http://mattrude.com
+ * Template: twentytwelve
+ */
+
+@import url("../twentytwelve/style.css");
+
+#book-cover {
+    float: left;
+}
+
+#book-cover img {
+    float: left;
+    height: 240px;
+    width: 180px;
+}

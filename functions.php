@@ -144,8 +144,9 @@ function books_metabox() {
 
 function books_save_metabox() {
     global $post;
+    $post_id = $post->ID;
 
-    if(isset($post->ID)) {
+    if(isset($post_id)) {
         if(isset($_POST['gutenberg_id'])) {
         echo "<br><h1>post set</h1><br>";
             if(get_post_custom($post_id, 'gutenberg_id') != "") {
